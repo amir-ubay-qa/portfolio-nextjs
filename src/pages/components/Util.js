@@ -1,4 +1,4 @@
-const Divider = () => {
+function Divider() {
   return (
     <div className="flex flex-col w-8/12 m-auto">
       <div className="divider"></div>
@@ -6,4 +6,4 @@ const Divider = () => {
   );
 };
 
-export {Divider}
+export default Divider
