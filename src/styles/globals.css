@@ -1,3 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .section-container-left {
+      @apply grid grid-cols-1 justify-center min-h-screen w-screen max-w-screen-lg m-auto
+  }
+  .section-container {
+      @apply grid grid-cols-1 justify-center content-center min-h-screen w-screen max-w-screen-lg m-auto
+  }
+  .section-title {
+      @apply text-4xl text-center mb-1 font-mono font-bold
+  }
+  .section-subtitle {
+      @apply text-xl text-center
+  }
+  .orange-text {
+      @apply text-orange-500 
+  }
+  html {
+      scroll-behavior: smooth;
+  }
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
