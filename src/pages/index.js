@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import SkillSets from "./components/Skills";
 import ExpList from "./components/Experiences";
-import { Divider } from "./components/Util";
+import Divider from "./components/Util";
 import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
