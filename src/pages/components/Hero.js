@@ -37,16 +37,19 @@ const Hero = () => {
         </div>
         <div className="basis-2/4">
           <div>
-            <h1 className="text-5xl font-bold">
-              Amir Ubay - <span className="text-5xl pt-2 text-orange-600 font-bold">QA Engineer</span> 
+            <h3 className='text-2xl text-gray-600 mb-4 font-semibold font-mono'>Hello, I am</h3>
+            <h1 className="text-7xl font-bold text-gray-700">
+              Amir Ubay
             </h1>
+            <h2 className='text-3xl pt-2 text-gray-700 mt-1'>
+              Software Quality Assurance
+            </h2>
             <TextTransition springConfig={presets.wobbly}>
-              <p className="text-3xl text-primary pt-6 font-bold">{TEXTS[index % TEXTS.length]}</p>
+              <p className="text-3xl text-orange-600 pt-6 font-bold">{TEXTS[index % TEXTS.length]}</p>
             </TextTransition>
             <div className='mt-8'>
             <button className="btn text-white btn-primary h-4 mr-4"><a href="#skill">Hire Me</a></button>
-            <button className="btn text-white btn-success h-4  mr-4"><a href="#skill">Download My CV</a></button>
-            <button className="btn text-white btn-info h-4 mr-4"><a href="#skill">My Experiences</a></button>
+            <button className="btn text-white bg-orange-600 border-none h-4  mr-4"><a href="https://drive.google.com/file/d/1HE-H7xkbSL69cO9B_Ss2oMXgbtFYYnlY/view?usp=sharing" target='_blank'>Download My CV</a></button>
             </div>
           </div>
         </div>

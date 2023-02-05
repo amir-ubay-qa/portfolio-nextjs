@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import SkillSets from "./components/Skills";
 import ExpList from "./components/Experiences";
+import ProjectList from "./components/Portfolio";
 import Divider from "./components/Util";
 import Footer from "./components/Footer";
 
@@ -29,6 +30,8 @@ export default function Home() {
         <SkillSets />
         <Divider />
         <ExpList />
+        {/* <Divider />
+        <ProjectList /> */}
         <Footer />
       </main>
     </>
