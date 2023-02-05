@@ -9,6 +9,7 @@ import ExpList from "./components/Experiences";
 import ProjectList from "./components/Portfolio";
 import Divider from "./components/Util";
 import Footer from "./components/Footer";
+import Services from "./components/Whatido";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,8 @@ export default function Home() {
         <Navbar />
         <Hero />
         <SkillSets />
+        <Divider />
+        <Services />
         <Divider />
         <ExpList />
         {/* <Divider />

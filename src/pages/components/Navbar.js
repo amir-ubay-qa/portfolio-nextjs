@@ -21,7 +21,7 @@ const ChildItem = ({ text, link }) => {
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-primary text-primary-content w-full ">
+    <div className="navbar bg-primary text-primary-content w-full fixed z-50">
       <div className="m-auto max-w-screen-xl w-full grid grid-cols-2 justify-items-stretch">
         <div className="justify-self-start">
           <Link href="/" className="btn btn-ghost normal-case text-xl"><Image src={logo} width={40}/></Link>
@@ -42,8 +42,9 @@ const Navbar = () => {
             </li> */}
             <MenuItem text="Home" link="/" />
             <MenuItem text="Skills" link="/#skill" />
+            <MenuItem text="Services" link="/#services" />
             <MenuItem text="Experiences" link="/#experiences" />
-            <MenuItem text="Portfolio" link="/#portfolio" />
+            {/* <MenuItem text="Portfolio" link="/#portfolio" /> */}
             {/* <MenuItem text="Contact" link="contact" /> */}
             {/* <MenuItem text="Sand Box" link="sandBox" /> */}
           </ul>

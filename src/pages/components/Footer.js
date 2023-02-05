@@ -43,6 +43,7 @@ const Footer = () => {
             </a> */}
           </div>
           <p className="text-gray-500">Image by <a href="https://www.freepik.com/free-vector/collection-logo-templates_12982641.htm#query=logo&position=9&from_view=keyword">Freepik</a></p>
+          <p  className="text-gray-500"><a href="https://www.flaticon.com/free-icons/rank" title="rank icons">Rank icons created by Smashicons - Flaticon</a></p>
         </div>
       </footer>
     </section>
