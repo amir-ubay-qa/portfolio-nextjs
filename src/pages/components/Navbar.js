@@ -44,7 +44,7 @@ const Navbar = () => {
             <MenuItem text="Skills" link="/#skill" />
             <MenuItem text="Services" link="/#services" />
             <MenuItem text="Experiences" link="/#experiences" />
-            {/* <MenuItem text="Portfolio" link="/#portfolio" /> */}
+            <MenuItem text="Portfolio" link="/#portfolio" />
             {/* <MenuItem text="Contact" link="contact" /> */}
             {/* <MenuItem text="Sand Box" link="sandBox" /> */}
           </ul>

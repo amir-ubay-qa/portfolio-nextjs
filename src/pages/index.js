@@ -33,8 +33,8 @@ export default function Home() {
         <Services />
         <Divider />
         <ExpList />
-        {/* <Divider />
-        <ProjectList /> */}
+        <Divider />
+        <ProjectList />
         <Footer />
       </main>
     </>

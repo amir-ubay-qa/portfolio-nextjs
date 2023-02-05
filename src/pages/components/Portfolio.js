@@ -1,14 +1,17 @@
-const ProjectItem = ({ img = "https://placeimg.com/400/225/arch", title }) => {
+import Image from "next/image";
+import cypress from "../assets/cypress.png";
+
+const ProjectItem = ({ img, title, desc, link }) => {
   return (
-    <div className="card bg-base-100 shadow-xl">
+    <div className="card bg-base-100 shadow-xl pt-4">
       <figure>
-        <img src={img} alt="Shoes" />
+        <Image src={img} alt="cypress portfolio amazon" width={100}/>
       </figure>
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
-        <div className="card-actions justify-end">
-          <button className="btn btn-primary">Find Out</button>
+        <p>{desc}</p>
+        <div className="card-actions justify-start">
+          <button className="btn btn-sm btn-primary text-base mt-8"><a href={link} target="_blank">Find Out</a></button>
         </div>
       </div>
     </div>
@@ -22,10 +25,7 @@ const ProjectList = () => {
         <h2 className="section-title"><span className="orange-text">P</span>ortfolio</h2>
         <p className="section-subtitle">Mockup Automation Test</p>
         <div className="grid grid-cols-3 gap-6 p-10">
-          <ProjectItem title="Tokopedia" />
-          <ProjectItem title="Tokopedia" />
-          <ProjectItem title="Tokopedia" />
-          <ProjectItem title="Tokopedia" />
+          <ProjectItem img={cypress} title="Cypress - Amazon" desc="Automation demo using cypress for e-commerce" link="https://github.com/amir-ubay-qa/cypress"/>
         </div>
       </div>
     </div>
