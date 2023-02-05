@@ -48,7 +48,7 @@ const Hero = () => {
               <p className="text-3xl text-orange-600 pt-6 font-bold">{TEXTS[index % TEXTS.length]}</p>
             </TextTransition>
             <div className='mt-8'>
-            <button className="btn text-white btn-primary h-4 mr-4"><a href="#skill">Hire Me</a></button>
+            <button className="btn text-white btn-primary h-4 mr-4"><a href="https://www.linkedin.com/in/ubaidillah-amir-1083505a/">Hire Me</a></button>
             <button className="btn text-white bg-orange-600 border-none h-4  mr-4"><a href="https://drive.google.com/file/d/1HE-H7xkbSL69cO9B_Ss2oMXgbtFYYnlY/view?usp=sharing" target='_blank'>Download My CV</a></button>
             </div>
           </div>
