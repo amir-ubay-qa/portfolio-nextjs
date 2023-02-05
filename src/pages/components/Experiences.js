@@ -18,13 +18,12 @@ const ExpList = () => {
       year: "2014-2017",
     },
     { text: "Hardnos", position: "QA Engineer", year: "2017-2019" },
-    { text: "Santara", position: "QA Analyst", year: "2019-2020" },
-    { text: "WIZ.AI", position: "Project Manager", year: "2020-2021" },
-    { text: "Feedloop", position: "QA Engineer", year: "2021-2022" },
+    { text: "Santara", position: "QA Analyst", year: "2019-2021" },
+    { text: "Feedloop", position: "SDET", year: "2021-2022" },
     {
-      text: "Vouch SG",
-      position: "Software Developer Engineer in Test",
-      year: "2022-Present",
+      text: "Ser Morpheus",
+      position: "Quality Assurance",
+      year: "2021-2022",
     },
   ];
 
