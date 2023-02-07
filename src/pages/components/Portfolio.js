@@ -1,5 +1,6 @@
 import Image from "next/image";
 import cypress from "../assets/cypress.png";
+import robot from "../assets/robot.png";
 
 const ProjectItem = ({ img, title, desc, link }) => {
   return (
@@ -25,7 +26,8 @@ const ProjectList = () => {
         <h2 className="section-title"><span className="orange-text">P</span>ortfolio</h2>
         <p className="section-subtitle">Mockup Automation Test</p>
         <div className="grid grid-cols-3 gap-6 p-10">
-          <ProjectItem img={cypress} title="Cypress - Amazon" desc="Automation demo using cypress for e-commerce" link="https://github.com/amir-ubay-qa/cypress"/>
+          <ProjectItem img={cypress} title="Cypress" desc="Automation demo using cypress for e-commerce" link="https://github.com/amir-ubay-qa/cypress"/>
+          <ProjectItem img={robot} title="Robotframework" desc="Automation demo using robotframework for e-commerce" link="https://github.com/amir-ubay-qa/robotframework"/>
         </div>
       </div>
     </div>
