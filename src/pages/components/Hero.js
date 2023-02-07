@@ -37,11 +37,11 @@ const Hero = () => {
         </div>
         <div className="basis-2/4">
           <div>
-            <h3 className='text-2xl text-gray-600 mb-4 font-semibold font-mono'>Hello, I am</h3>
-            <h1 className="text-7xl font-bold text-gray-700">
+            <h3 className='text-2xl text-gray-600 dark:text-gray-400 mb-4 font-semibold font-mono'>Hello, I am</h3>
+            <h1 className="text-7xl font-bold text-gray-700 dark:text-gray-300">
               Amir Ubay
             </h1>
-            <h2 className='text-3xl pt-2 text-gray-700 mt-1'>
+            <h2 className='text-3xl pt-2 text-gray-700 dark:text-gray-400 mt-1'>
               Software Quality Assurance
             </h2>
             <TextTransition springConfig={presets.wobbly}>

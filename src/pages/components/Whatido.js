@@ -14,7 +14,7 @@ function ServiceCard({title, desc, img}) {
             <Image
               src={img}
               alt="Shoes"
-              className="rounded-xl"
+              className="rounded-xl dark:invert"
               width={100}
             />
           </figure>
