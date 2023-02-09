@@ -38,11 +38,11 @@ const SkillSets = () => {
   }
   return (
     <div className="section-container" id="skill">
-        <h2 className="section-title"><span className="orange-text">S</span>kills</h2>
+        <h2 className="section-title mt-24 lg:mt-auto"><span className="orange-text">S</span>kills</h2>
         <p className="section-subtitle">
           My current skills as QA Engineer
         </p>
-        <div className="grid grid-cols-3 gap-4 p-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-10">
           <CardSkill
             img={logo.cypress}
             title="Cypress"
