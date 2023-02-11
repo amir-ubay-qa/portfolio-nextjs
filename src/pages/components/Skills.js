@@ -8,6 +8,7 @@ import githubAction from '../assets/githubAction.png';
 import docker from '../assets/docker.png';
 import cypress from '../assets/cypress.png';
 import robot from '../assets/robot.png';
+import wdio from '../assets/wdio.svg'
 
 
 const CardSkill = ({ img, title, desc }) => {
@@ -35,6 +36,7 @@ const SkillSets = () => {
     react: react,
     githubAction: githubAction,
     docker: docker,    
+    wdio: wdio
   }
   return (
     <div className="section-container" id="skill">
@@ -42,7 +44,7 @@ const SkillSets = () => {
         <p className="section-subtitle">
           My current skills as QA Engineer
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-10 place-content-center">
           <CardSkill
             img={logo.cypress}
             title="Cypress"
@@ -52,6 +54,11 @@ const SkillSets = () => {
             img={logo.robot}
             title="Robot Framework"
             desc="Another tool for automation testing but with Python"
+          />
+          <CardSkill
+            img={logo.wdio}
+            title="WebdriverIO"
+            desc="Latest test framework for node.js"
           />
           <CardSkill
             img={logo.git}
@@ -83,6 +90,7 @@ const SkillSets = () => {
             title="Javascript"
             desc="My main programming language to understand Software Development"
           />
+          <div className='hidden md:block'></div>
           <CardSkill
             img={logo.react}
             title="REACT"

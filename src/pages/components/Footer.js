@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <section className="bg-neutral w-full">
       <footer className="footer p-10 bg-neutral text-neutral-content max-w-screen-lg m-auto">
-        <div className="text-center align-middle items-center w-screen">
+        <div className="text-center align-middle items-center w-full">
           <div className="grid grid-flow-col gap-4 text-justify">
             <span>Find me on these social media</span>
             <a href="https://www.linkedin.com/in/ubaidillah-amir-1083505a/" target="_blank">

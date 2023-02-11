@@ -1,6 +1,7 @@
 import Image from "next/image";
 import cypress from "../assets/cypress.png";
 import robot from "../assets/robot.png";
+import wdio from "../assets/wdio.svg"
 
 const ProjectItem = ({ img, title, desc, link }) => {
   return (
@@ -27,6 +28,7 @@ const ProjectList = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-10">
         <ProjectItem img={cypress} title="Cypress" desc="Automation test of e2e and xhr using cypress" link="https://github.com/amir-ubay-qa/cypress" />
         <ProjectItem img={robot} title="Robotframework" desc="Automation test of e2e using robotframework" link="https://github.com/amir-ubay-qa/robotframework" />
+        <ProjectItem img={wdio} title="WebdriverIO" desc="Automation test of e2e using webdriverio" link="https://github.com/amir-ubay-qa/webdriver-io" />
       </div>
     </div>
   );
