@@ -9,7 +9,8 @@ const TEXTS = [
   "Postman",
   "Manual Test",
   "Automation",
-  "API Test"
+  "API Test",
+  "WebdriverIO"
 ]
 
 const Hero = () => {
@@ -42,7 +43,7 @@ const Hero = () => {
               Amir Ubay
             </h1>
             <h2 className='text-2xl md:text-3xl pt-2 text-gray-700 dark:text-gray-400 mt-1'>
-              Software Quality Assurance
+              SQA Engineer
             </h2>
             <TextTransition springConfig={presets.wobbly}>
               <p className="text-3xl text-orange-600 pt-6 font-bold">{TEXTS[index % TEXTS.length]}</p>
