@@ -49,8 +49,12 @@ const Hero = () => {
               <p className="text-3xl text-orange-600 pt-6 font-bold">{TEXTS[index % TEXTS.length]}</p>
             </TextTransition>
             <div className='mt-4'>
-            <button className="btn text-white btn-primary h-4 mr-4"><a href="https://www.linkedin.com/in/ubaidillah-amir-1083505a/">Hire Me</a></button>
-            <button className="btn text-white bg-orange-600 border-none h-4 mr-4 mt-8"><a href="https://drive.google.com/file/d/1bJWCyPpruKOPvwyMwr3Wh-1FQy16-V4l/view?usp=drive_link" target='_blank'>Download My CV</a></button>
+            <a href="https://www.linkedin.com/in/ubaidillah-amir-1083505a/">
+              <button className="btn text-white btn-primary h-4 mr-4">Hire Me</button>
+            </a>
+            <a href="https://drive.google.com/file/d/1bJWCyPpruKOPvwyMwr3Wh-1FQy16-V4l/view?usp=drive_link" target='_blank'>
+              <button className="btn text-white bg-orange-600 border-none h-4 mr-4 mt-8">Download My CV</button>
+            </a>
             </div>
           </div>
         </div>
