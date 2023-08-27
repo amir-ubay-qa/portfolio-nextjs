@@ -15,15 +15,15 @@ const ExpList = () => {
     {
       text: "Gameloft Indonesia",
       position: "QA Game Tester",
-      year: "2014-2017",
+      year: "2014-2018",
     },
-    { text: "Hardnos", position: "QA Engineer", year: "2017-2019" },
-    { text: "Santara", position: "QA Analyst", year: "2019-2021" },
-    { text: "Feedloop", position: "SDET", year: "2021-2022" },
+    { text: "Hardnos", position: "QA Engineer", year: "2018-2020" },
+    { text: "Santara", position: "QA Analyst", year: "2020-2021" },
+    { text: "Feedloop", position: "QA Automation", year: "2021-2022" },
     {
-      text: "Ser Morpheus",
-      position: "Quality Assurance",
-      year: "2021-2022",
+      text: "Vouch Sg",
+      position: "QA Automation",
+      year: "2022-2023",
     },
   ];
 
