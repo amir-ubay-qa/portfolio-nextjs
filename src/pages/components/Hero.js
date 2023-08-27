@@ -50,7 +50,7 @@ const Hero = () => {
             </TextTransition>
             <div className='mt-4'>
             <button className="btn text-white btn-primary h-4 mr-4"><a href="https://www.linkedin.com/in/ubaidillah-amir-1083505a/">Hire Me</a></button>
-            <button className="btn text-white bg-orange-600 border-none h-4 mr-4 mt-8"><a href="https://s3-ap-southeast-1.amazonaws.com/glints-dashboard/resume/35822836027a9132ab6552f3c220943f.pdf" target='_blank'>Download My CV</a></button>
+            <button className="btn text-white bg-orange-600 border-none h-4 mr-4 mt-8"><a href="https://drive.google.com/file/d/1bJWCyPpruKOPvwyMwr3Wh-1FQy16-V4l/view?usp=drive_link" target='_blank'>Download My CV</a></button>
             </div>
           </div>
         </div>
