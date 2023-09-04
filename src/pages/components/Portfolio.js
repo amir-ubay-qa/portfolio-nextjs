@@ -3,6 +3,7 @@ import cypress from "../assets/cypress.png";
 import robot from "../assets/robot.png";
 import wdio from "../assets/wdio.svg";
 import next from "../assets/nextjs.png";
+import react from "../assets/react.png";
 
 const ProjectItem = ({ img, title, desc, link }) => {
   return (
