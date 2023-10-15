@@ -33,7 +33,6 @@ const ProjectList = () => {
         <ProjectItem img={wdio} title="WebdriverIO" desc="Automation test of e2e using webdriverio" link="https://github.com/amir-ubay-qa/webdriver-io" />
         <ProjectItem img={next} title="NextJS" desc="Sandbox QA for automate testing created with NextJS" link="https://github.com/amir-ubay-qa/sandbox-qa" />
         <ProjectItem img={next} title="NextJS" desc="This web portfolio's repository created with NextJS" link="https://github.com/amir-ubay-qa/portfolio-nextjs" />
-        // <ProjectItem img={react} title="React" desc="SPA Pokedex created with React" link="https://github.com/amir-ubay-qa/pokedex" />    
       </div>
     </div>
   );
