@@ -32,9 +32,9 @@ function Services() {
    return (
     <div className="section-container min-h-screen" id="services">
       <h2 className="section-title mt-24 lg:mt-auto">
-        <span className="orange-text">S</span>ervices
+        <span className="orange-text">W</span>what I do
       </h2>
-      <p className="section-subtitle">My services that can help you</p>
+      <p className="section-subtitle">My common tasks as software quality assurance</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-10 justify-center">
         <ServiceCard title="Manual Test" desc="Manual testing for web app or mobile app" img={manual}/>
         <ServiceCard title="Automate Test" desc="Automate test for web app" img={automate} />
