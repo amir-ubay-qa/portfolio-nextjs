@@ -32,7 +32,7 @@ function Services() {
    return (
     <div className="section-container min-h-screen" id="services">
       <h2 className="section-title mt-24 lg:mt-auto">
-        <span className="orange-text">W</span>what I do
+        <span className="orange-text">W</span>hat I do
       </h2>
       <p className="section-subtitle">My common tasks as software quality assurance</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-10 justify-center">
