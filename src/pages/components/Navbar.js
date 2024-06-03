@@ -71,7 +71,7 @@ const Navbar = () => {
               <ul className="opacity-100 menu absolute top-0 left-0 w-8/12 h-screen bg-white text-gray-800 p-4">
                 <MenuItem text="Home" link="/" />
                 <MenuItem text="Skills" link="/#skill" />
-                <MenuItem text="Services" link="/#services" />
+                <MenuItem text="Daily Tasks" link="/#services" />
                 <MenuItem text="Experiences" link="/#experiences" />
                 <MenuItem text="Portfolio" link="/#portfolio" />
               </ul>
